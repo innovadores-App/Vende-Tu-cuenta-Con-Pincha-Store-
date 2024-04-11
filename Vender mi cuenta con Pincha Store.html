@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para Vender Cuenta de Lords Mobile</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container form div {
+            margin-bottom: 20px;
+        }
+
+        .container form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .container form input[type="text"],
+        .container form select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .container form button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: red;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .container form fieldset {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .container form legend {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> Vende tu Cuenta de Lords Mobile con Pincha Store</h1>
+        <form>
+            <div>
+                <label for="migracion">Migra hasta:</label>
+                <input type="text" id="migracion" name="migracion">
+            </div>
+
+            <fieldset>
+                <legend>Stats Unitropa:</legend>
+                <div>
+                    <label for="ataque_infanteria">⚔️ Infantería:</label>
+                    <input type="text" id="ataque_infanteria" name="ataque_infanteria">
+                </div>
+                <div>
+                    <label for="ataque_arqueros">🏹 Arqueros:</label>
+                    <input type="text" id="ataque_arqueros" name="ataque_arqueros">
+                </div>
+                <div>
+                    <label for="ataque_caballeria">🐎 Caballería:</label>
+                    <input type="text" id="ataque_caballeria" name="ataque_caballeria">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Stats Mixto:</legend>
+                <div>
+                    <label for="ataque_mixto_infanteria">⚔️ Infantería:</label>
+                    <input type="text" id="ataque_mixto_infanteria" name="ataque_mixto_infanteria">
+                </div>
+                <div>
+                    <label for="ataque_mixto_arqueros">🏹 Arqueros:</label>
+                    <input type="text" id="ataque_mixto_arqueros" name="ataque_mixto_arqueros">
+                </div>
+                <div>
+                    <label for="ataque_mixto_caballeria">🐎 Caballería:</label>
+                    <input type="text" id="ataque_mixto_caballeria" name="ataque_mixto_caballeria">
+                </div>
+            </fieldset>
+
+            <div>
+                <label for="muralla">Espacios de Muralla:</label>
+                <input type="text" id="muralla" name="muralla">
+            </div>
+
+            <div>
+                <label for="vinculaciones">Vinculaciones:</label>
+                <input type="text" id="vinculaciones" name="vinculaciones">
+            </div>
+
+            <div>
+                <label for="tropas">Tropas:</label>
+                <input type="text" id="tropas" name="tropas">
+            </div>
+
+            <div>
+                <label for="elite">Elite:</label>
+                <input type="text" id="elite" name="elite">
+            </div>
+
+            <fieldset>
+                <legend>Gemas:</legend>
+                <div>
+                    <label for="gemas_regalo">Para regalar:</label>
+                    <input type="text" id="gemas_regalo" name="gemas_regalo">
+                </div>
+                <div>
+                    <label for="gemas_vinculadas">Vinculadas:</label>
+                    <input type="text" id="gemas_vinculadas" name="gemas_vinculadas">
+                </div>
+            </fieldset>
+
+            <div>
+                <label for="RSS">Producción RSS hiper?:</label>
+                <input type="text" id="RSS" name="RSS">
+            </div>
+          
+            <div>
+                <label for="t5">Investigación T5:</label>
+                <input type="text" id="t5" name="t5">
+            </div>
+
+            <div>
+                <label for="wonder"> Investigación Wonder:</label>
+                <input type="text" id="wonder" name="wonder">
+            </div>
+
+            <div>
+                <label for="heroes">Héroes de Paga:</label>
+                <input type="text" id="heroes" name="heroes">
+            </div>
+
+            <div>
+                <label for="skins de castillo">Skins de castillo:</label>
+                <input type="text" id="skins de castillo" name="skins de castillo">
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>Recursos en bolsa:</legend>
+                    <div>
+                        <label for="comida">🌾 F:</label>
+                        <input type="text" id="comida" name="comida">
+                    </div>
+                    <div>
+                        <label for="madera">🌲 W:</label>
+                        <input type="text" id="madera" name="madera">
+                    </div>
+                 
+                    <div>
+                        <label for="piedra">🏔️ S:</label>
+                        <input type="text" id="piedra" name="piedra">
+                    </div>
+                   <div>
+                        <label for="mineral">⛰️ O:</label>
+                        <input type="text" id="mineral" name="mineral">
+                    </div>
+                    <div>
+                        <label for="oro">💰 G:</label>
+                        <input type="text" id="oro" name="oro">
+                    </div>
+                </fieldset>
+                
+                <div>
+                    <label for="counter">Counter:</label>
+                    <input type="text" id="counter" name="counter">
+                </div>
+
+                <div>
+                    <label for="debuff">Debuff:</label>
+                    <input type="text" id="debuff" name="debuff">
+                </div>
+
+                <div>
+                    <label for="monstruos_p2p">Monstruos P2P:</label>
+                    <input type="text" id="monstruos_p2p" name="monstruos_p2p">
+                </div>
+
+                <div>
+                    <label for="sigilo">Sigilo:</label>
+                    <input type="text" id="sigilo" name="sigilo">
+                </div>
+
+                <div>
+                    <label for="estrellas_castillo">Estrellas de Castillo:</label>
+                    <input type="text" id="estrellas_castillo" name="estrellas_castillo">
+                </div>
+
+                <div>
+                    <label for="skins_p2p">Skins P2P:</label>
+                    <input type="text" id="skins_p2p" name="skins_p2p">
+                </div>
+
+                <div>
+                    <label for="artefactos_bendecidos">Artefactos Bendecidos:</label>
+                    <input type="text" id="artefactos_bendecidos" name="artefactos_bendecidos">
+                </div>
+
+                <div>
+                    <label for="papiros">Papiros:</label>
+                    <input type="text" id="papiros" name="papiros">
+                </div>
+
+                <div>
+                    <label for="precio">Precio estimado de tu cuenta:</label>
+                    <input type="text" id="precio" name="precio">
+                </div>
+
+                <div>
+<div>
+    <label for="vendedor">Elige tu vendedor:</label>
+    <select id="vendedor" name="vendedor">
+        <option value="0">Selecciona un vendedor</option>
+        <option value="51925251788">Edgar (WhatsApp: 51925251788)</option>
+        <option value="5492216424205">Caleb (WhatsApp: 5492216424205)</option>
+        <option value="584126726979">Martin (WhatsApp: 584126726979)</option>
+        <option value="5493364654895">Maria (WhatsApp: 5493364654895)</option>
+        <option value="51994903426">Sam (WhatsApp: 51994903426)</option>
+    </select>
+
+
+                <div>
+                    <button type="button" onclick="enviarDatos()">Enviar</button>
+                </div>
+            </form>
+        </div>
+ <a href="https://chat.whatsapp.com/Jhbn3HlNF8B5Yi6JoIo28i" target="_blank">
+  <button type="button" style="background-color: #25d366; color: #fff; border: none; border-radius: 5px; padding: 10px 20px; font-size: 16px; cursor: pointer; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+    Grupo de WhatsApp
+  </button>
+</a>
+        <script>
+            function enviarDatos() {
+                var migracion = document.getElementById("migracion").value;
+                var ataqueInfanteria = document.getElementById("ataque_infanteria").value;
+                var ataqueArqueros = document.getElementById("ataque_arqueros").value;
+                var ataqueCaballeria = document.getElementById("ataque_caballeria").value;
+                var ataqueMixtoInfanteria = document.getElementById("ataque_mixto_infanteria").value;
+                var ataqueMixtoArqueros = document.getElementById("ataque_mixto_arqueros").value;
+                var ataqueMixtoCaballeria = document.getElementById("ataque_mixto_caballeria").value;
+                var muralla = document.getElementById("muralla").value;
+                var vinculaciones = document.getElementById("vinculaciones").value;
+                var tropas = document.getElementById("tropas").value;
+                var elite = document.getElementById("elite").value;
+                var gemasRegalo = document.getElementById("gemas_regalo").value;
+                var gemasVinculadas = document.getElementById("gemas_vinculadas").value;
+                var RSS = document.getElementById("RSS").value;
+                var t5 = document.getElementById("t5").value;
+                var wonder = document.getElementById("wonder").value;
+                var heroes = document.getElementById("heroes").value;
+                var skinsdecastillo = document.getElementById("skins de castillo").value;
+                var comida = document.getElementById("comida").value;
+                var madera = document.getElementById("madera").value;
+                var piedra = document.getElementById("piedra").value;
+                var mineral = document.getElementById("mineral").value;
+                var oro = document.getElementById("oro").value;
+                var counter = document.getElementById("counter").value;
+                var debuff = document.getElementById("debuff").value;
+                var monstruosP2P = document.getElementById("monstruos_p2p").value;
+                var sigilo = document.getElementById("sigilo").value;
+                var estrellasCastillo = document.getElementById("estrellas_castillo").value;
+                var skinsP2P = document.getElementById("skins_p2p").value;
+                var artefactosBendecidos = document.getElementById("artefactos_bendecidos").value;
+                var papiros = document.getElementById("papiros").value;
+                var precio = document.getElementById("precio").value;
+                var vendedor = document.getElementById("vendedor").value;
+
+                var mensaje = "*Hola, quiero vender mi cuenta. A continuación, te paso todos los detalles de la cuenta, y además adjunto imágenes con toda la información relevante*:\n" +
+                "✈️ *Migra hasta* ✈️: " + migracion + "\n" +
+                "⚔️ *Infantería*: " + ataqueInfanteria + "\n" +
+                "🏹 *Arqueros*: " + ataqueArqueros + "\n" +
+                "🐎 *Caballería*: " + ataqueCaballeria + "\n" +
+                "*Stats Mixto*:\n" +
+                "⚔️ *Infantería*: " + ataqueMixtoInfanteria + "\n" +
+                "🏹 *Arqueros*: " + ataqueMixtoArqueros + "\n" +
+                "🐎 *Caballería*: " + ataqueMixtoCaballeria + "\n" +
+                "🛡️ *Espacios de Muralla*: " + muralla + "\n" +
+                "🔗 *Vinculaciones*: " + vinculaciones + "\n" +
+                "🪖 *Tropas*: " + tropas + "\n" +
+                "🏅 *Elite*: " + elite + "\n" +
+                "💎 *Gemas*:\n" +
+                "   🎁 Para regalar: " + gemasRegalo + " \n" +
+                "   🔗 Vinculadas: " + gemasVinculadas + " \n" +
+                "🌾 *Producción RSS Híper*: " + RSS + "\n" +
+                "🔬 *Investigación T5*: " + t5 + "\n" +
+                "🏰 *Investigación Wonder*: " + wonder + "\n" +
+                "🦸‍♂️ *Héroes de Paga*: " + heroes + "\n" +
+                "🏯 *Skins de castillo*: " + skinsdecastillo + "\n" +
+                "🎒 *Recursos en bolsa*:\n" +
+                "🌾 *F*: " + comida + "\n" +
+                "🌲 *W*: " + madera + "\n" +
+                "🏔️ *S*: " + piedra + "\n" +
+                "⛰️ *O*: " + mineral + "\n" +
+                "💰 *G*: " + oro + "\n" +
+                "🛡️ *Counter*: " + counter + "\n" +
+                "🚫 *Debuff*: " + debuff + "\n" +
+                "👾 *Monstruos P2P*: " + monstruosP2P + "\n" +
+                "🕵️‍♂️ *Sigilo*: " + sigilo + "\n" +
+                "⭐ *Estrellas de Castillo*: " + estrellasCastillo + "\n" +
+                "🎨 *Skins P2P*: " + skinsP2P + "\n" +
+                "🔮 *Artefactos Bendecidos*: " + artefactosBendecidos + "\n" +
+                "📜 *Papiros*: " + papiros + "\n" +
+                "💰 *Precio Estimado*💰: " + precio;
+                var vendedorNombre = document.getElementById("vendedor").options[document.getElementById("vendedor").selectedIndex].text;
+
+                var confirmacion = confirm("¿Estás seguro que deseas enviar estos datos a " + vendedorNombre + " por WhatsApp?\n\n" + mensaje);
+
+                if (confirmacion) {
+                    var mensajeWhatsApp = encodeURIComponent(mensaje);
+                    var linkWhatsApp = "https://wa.me/" + vendedor + "?text=" + mensajeWhatsApp;
+                    window.open(linkWhatsApp);
+                }
+            }
+        </script>
+    </body>
+</html>
